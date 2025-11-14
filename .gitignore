@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Checkpoints
+*.pth
+*.pt
+default/*.pth
+
+# Generated samples
+samples/
+*/samples/
+
+# Dataset CSVs
+.csv
+/data 
+# System files
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+ /dataset/mnist_test.csv 
+ 
